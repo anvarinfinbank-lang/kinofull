@@ -4,4 +4,4 @@ services:
     env: php
     plan: free
     buildCommand: ""
-    startCommand: ""
+    startCommand: "php -S 0.0.0.0:$PORT index.php"
